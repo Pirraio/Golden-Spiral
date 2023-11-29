@@ -37,7 +37,7 @@ t.setheading(90)
 
 arco_90 = altura
 for k in range(10):
-    t.circle(-arco_90, 90)
+    t.circle(arco_90, 90)
     arco_90 = ((base-altura)**(k+1))/const**k
 
 t.hideturtle()
